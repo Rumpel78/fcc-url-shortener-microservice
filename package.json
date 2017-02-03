@@ -1,0 +1,26 @@
+{
+  "name": "fcc-url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rumpel78/fcc-url-shortener-microservice.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "urlshortener"
+  ],
+  "author": "Thomas Rzipa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rumpel78/fcc-url-shortener-microservice/issues"
+  },
+  "homepage": "https://github.com/Rumpel78/fcc-url-shortener-microservice#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
