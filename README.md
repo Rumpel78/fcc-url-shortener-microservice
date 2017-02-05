@@ -8,4 +8,4 @@
 * **User Story**: When I visit that shortened URL, it will redirect me to my original link.
 
 
-See the result under: <https://github.com/Rumpel78/fcc-url-shortener-microservice>
+See the result under: <https://rumpels-fcc-url-shortener-ms.herokuapp.com/>
