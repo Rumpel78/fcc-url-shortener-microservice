@@ -19,6 +19,7 @@ app.get('/new/*', function (req, res) {
 app.get('/:shortUrl', function (req, res) {
   var shorturl = req.params.shortUrl
   var url = links.findOne({ key: shorturl}).then((doc)=>{
+    res.setHeader('Content-Type', 'application/json')
     res.redirect(doc.url);
   }).catch((err) => {
     res.redirect("/")
