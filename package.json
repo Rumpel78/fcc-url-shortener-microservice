@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/Rumpel78/fcc-url-shortener-microservice#readme",
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "mongodb": "^2.2.22",
+    "monk": "^3.1.4",
+    "shortid": "^2.2.6"
   }
 }
