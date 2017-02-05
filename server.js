@@ -1,6 +1,7 @@
 var express = require('express')
 var shortid = require('shortid')
-var db = require('monk')('localhost/urlshortener')
+var mongoUrl = process.env.MONGOLAB_URI;
+var db = require('monk')(mongoUrl)
 var links = db.get('links');
 
 var app = express()
