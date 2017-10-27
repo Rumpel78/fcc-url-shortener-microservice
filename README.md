@@ -8,4 +8,5 @@
 * **User Story**: When I visit that shortened URL, it will redirect me to my original link.
 
 
-See the result under: <https://rumpels-fcc-url-shortener-ms.herokuapp.com/>
+See the result under: https://shortener.app.rzipa.at/  
+To take a look at the other projects go to https://app.rzipa.at
