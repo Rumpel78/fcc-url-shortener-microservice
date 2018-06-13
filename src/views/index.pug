@@ -10,6 +10,7 @@ html(lang="en")
     body
         div(class="container")
             h1(class="header") FreeCodeCamp API Basejump: URL Shortener Microservice
+            h3 --dev--
             blockquote
                 p User stories:
                 ul
@@ -17,23 +18,23 @@ html(lang="en")
                     li When I visit that shortened URL, it will redirect me to my original link.
 
             h3 Example creation usage:
-            code #{host}/new/https://www.google.com
-            a(href="new/https://www.google.com") [Show in browser]
+            code #{baseUrl}#{basePath}/new/https://www.google.com
+            a(href=basePath+"new/https://www.google.com") [Show in browser]
             br
             
-            code #{host}/new/http://foo.com:80
-            a( href="new/http://foo.com:80") [Show in browser]
+            code #{baseUrl}#{basePath}/new/http://foo.com:80
+            a( href=basePath+"new/http://foo.com:80") [Show in browser]
 
             h3 Example creation output
             code { "original_url":"http://foo.com:80", "short_url":"#{host}/H1YUseBux" }
 
             h3 Usage:
-            code #{host}/H1YUseBux
-            a(href="H1YUseBux") [Show in browser]
+            code #{baseUrl}#{basePath}/H1YUseBux
+            a(href=basePath+"H1YUseBux") [Show in browser]
 
             h3 Will redirect to:
             code https://www.google.com/
             br
             br
             
-            a(href=home) More freeCodeCamp apps
+            a(href=baseUrl) More freeCodeCamp apps
